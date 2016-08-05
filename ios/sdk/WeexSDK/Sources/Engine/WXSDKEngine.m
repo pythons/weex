@@ -36,6 +36,7 @@
     [self registerModule:@"webview" withClass:NSClassFromString(@"WXWebViewModule")];
     [self registerModule:@"instanceWrap" withClass:NSClassFromString(@"WXInstanceWrap")];
     [self registerModule:@"timer" withClass:NSClassFromString(@"WXTimerModule")];
+    [self registerModule:@"clipboard" withClass:NSClassFromString(@"WXClipboardModule")];
 }
 
 + (void)registerModule:(NSString *)name withClass:(Class)clazz
